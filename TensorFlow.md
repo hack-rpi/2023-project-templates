@@ -20,7 +20,7 @@
    print("TensorFlow version:", tf.__version__)
    ```
 
-* For the specific installation process, refer to the [Official Install Document](https://www.tensorflow.org/install/pip#linux).
+* For the specific installation process for Windows Native, refer to the [Official Install Document](https://www.tensorflow.org/install/pip#windows-native).
 
 ## **Basic TensorFlow Operations:**
 
