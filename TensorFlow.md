@@ -9,24 +9,24 @@
 
 1. Install TensorFlow with CUDA using pip:
 
-   ```
+   ```bash
    pip install tensorflow[and-cuda]
    ```
 
 2. Verify the installation by running the following Python commands:
 
-   ```
+   ```python
    import tensorflow as tf
    print("TensorFlow version:", tf.__version__)
    ```
 
-* For the specific installation process for Windows Native, refer to the [Official Install Document](https://www.tensorflow.org/install/pip#windows-native).
+* For the specific installation process, refer to the [Official Install Document](https://www.tensorflow.org/install/pip#linux).
 
 ## **Basic TensorFlow Operations:**
 
 1. Perform a simple addition operation using TensorFlow:
 
-   ```
+   ```python
    import tensorflow as tf
    
    # Define constants
@@ -44,7 +44,7 @@
 
 1. Load a dataset, build, and train a machine learning model using TensorFlow:
 
-   ```
+   ```python
    import tensorflow as tf
    
    # Load the MNIST dataset
@@ -65,7 +65,7 @@
 
 1. Compile and train the model:
 
-   ```
+   ```python
    model.compile(optimizer='adam',
                  loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True),
                  metrics=['accuracy'])
